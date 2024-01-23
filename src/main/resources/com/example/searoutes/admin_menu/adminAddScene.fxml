@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" stylesheets="@adminMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.searoutes.AdminAddScene">
+   <children>
+      <TextField id="text_box" fx:id="password" layoutX="113.0" layoutY="334.0" promptText="Password" stylesheets="@adminMenu.css" />
+      <Button id="buttonUsers" fx:id="add" layoutX="160.0" layoutY="367.0" mnemonicParsing="false" onAction="#onAdd" stylesheets="@adminMenu.css" text="Add" />
+      <Button id="backButton" fx:id="logout" layoutX="14.0" layoutY="628.0" mnemonicParsing="false" onAction="#onBackButton" prefHeight="27.0" prefWidth="29.0" stylesheets="@adminMenu.css" />
+      <TextField id="text_box" fx:id="username" layoutX="110.0" layoutY="300.0" promptText="Username" stylesheets="@adminMenu.css" />
+      <ChoiceBox id="text_box" fx:id="serAdmins" layoutX="114.0" layoutY="460.0" onMouseEntered="#addtoChoiceBox" prefWidth="150.0" stylesheets="@adminMenu.css" />
+      <Button id="buttonUsers" layoutX="151.0" layoutY="501.0" mnemonicParsing="false" onAction="#removeAdmin" stylesheets="@adminMenu.css" text="Remove" />
+      <Label fx:id="labelAdd" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="407.0" prefHeight="18.0" prefWidth="281.0" textAlignment="CENTER" textFill="RED" />
+      <Label fx:id="labelRemove" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="540.0" prefHeight="18.0" prefWidth="362.0" textAlignment="CENTER" textFill="RED" />
+   </children>
+</AnchorPane>

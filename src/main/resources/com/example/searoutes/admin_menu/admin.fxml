@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" stylesheets="@adminMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.searoutes.AdminIntro">
+   <children>
+      <Button id="buttonUsers" fx:id="adminAddBoat" layoutX="150.0" layoutY="360.0" mnemonicParsing="false" onAction="#onAddBoat" stylesheets="@adminMenu.css" text="Boats" />
+      <Button id="buttonUsers" fx:id="usersButton" layoutX="151.0" layoutY="320.0" mnemonicParsing="false" onAction="#onUsers" stylesheets="@adminMenu.css" text="Users" />
+      <Button id="buttonUsers" layoutX="140.0" layoutY="395.0" mnemonicParsing="false" onAction="#onCaptain" prefHeight="21.0" prefWidth="94.0" stylesheets="@adminMenu.css" text="Captains" />
+      <Button id="buttonRemove" layoutX="14.0" layoutY="620.0" mnemonicParsing="false" onAction="#onLogOut" prefHeight="27.0" prefWidth="56.0" stylesheets="@adminMenu.css" text="Log out" />
+      <Button id="jackButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#jackButtonClicked" prefHeight="70.0" prefWidth="74.0" stylesheets="@adminMenu.css" />
+   </children>
+</AnchorPane>

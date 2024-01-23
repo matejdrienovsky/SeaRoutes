@@ -1,0 +1,31 @@
+#orderbackground{
+    -fx-background-image: url("order3bg.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#labelbg{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 15px;
+}
+
+#travel_button {
+    -fx-background-color: #26A69A;
+    -fx-background-radius: 999px;
+    -fx-effect: dropshadow(three-pass-box, #26A69A, 20, 0, 10, 0);
+    -fx-text-fill: #FFFFFF;
+    -fx-cursor: hand;
+    -fx-font-family: "Inter", "Helvetica", "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols", "-apple-system", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 18px;
+    -fx-opacity: 1;
+    -fx-border-width: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+}
+#travel_button:hover {
+    -fx-background-color: #144045;
+}

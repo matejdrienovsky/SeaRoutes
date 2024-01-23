@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="animationBackground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" stylesheets="@animation.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.searoutes.AnimationController">
+   <children>
+      <Label fx:id="labelArrival" layoutX="292.0" layoutY="3.0" text="Label">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelDeparture" layoutX="25.0" layoutY="304.0" text="Label">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Group fx:id="animationGroup" layoutX="82.0" layoutY="444.0" />
+      <ImageView fx:id="weatherPic" fitHeight="99.0" fitWidth="129.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

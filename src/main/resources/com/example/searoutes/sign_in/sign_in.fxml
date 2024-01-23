@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" stylesheets="@sign_in.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.searoutes.SignIn">
+   <children>
+      <Label layoutX="117.0" layoutY="170.0" text="SIGN IN" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <VBox layoutX="100.0" layoutY="274.0" prefHeight="59.0" prefWidth="173.0" spacing="8.0">
+         <children>
+            <TextField id="sign_in_text_box" fx:id="username_sign_in" prefHeight="26.0" prefWidth="158.0" promptText="Username" stylesheets="@sign_in.css" />
+            <PasswordField id="sign_in_text_box" fx:id="password_sign_in" prefHeight="42.0" prefWidth="174.0" promptText="Password" stylesheets="@sign_in.css" />
+         </children>
+      </VBox>
+      <Button id="sign_in_page_button" fx:id="sign_button" layoutX="139.0" layoutY="375.0" mnemonicParsing="false" onAction="#sign_In" stylesheets="@sign_in.css" text="SIGN IN" textFill="#f7f7f7">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button id="sign_up_back" layoutX="14.0" layoutY="628.0" maxHeight="26.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="30.0" prefWidth="30.0" stylesheets="@sign_in.css" />
+      <Label fx:id="error_label" alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="355.0" prefHeight="15.0" prefWidth="267.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

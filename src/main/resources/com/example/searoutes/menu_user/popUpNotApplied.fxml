@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="158.0" prefWidth="278.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="106.0" layoutY="126.0" text="Not Applied" />
+      <ImageView fitHeight="98.0" fitWidth="148.0" layoutX="90.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@remove.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

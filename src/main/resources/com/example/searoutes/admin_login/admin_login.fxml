@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="bgMenuUser" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" stylesheets="@../menu_user/menu_user.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.searoutes.AdminLogin">
+   <children>
+      <PasswordField id="admin_text_box" fx:id="admin_login_password" layoutX="97.0" layoutY="372.0" promptText="Password" stylesheets="@adminLogin..css" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="113.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@laptop3.png" />
+         </image>
+      </ImageView>
+      <Button id="admin_page_button" layoutX="149.0" layoutY="424.0" mnemonicParsing="false" onAction="#onClickMainButton" stylesheets="@adminLogin..css" text="Enter" />
+      <Button id="admin_login_back" layoutX="14.0" layoutY="628.0" mnemonicParsing="false" onAction="#onBackClick" prefHeight="26.0" prefWidth="26.0" stylesheets="@adminLogin..css" />
+      <Label fx:id="nice_try_label" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="406.0" prefHeight="18.0" prefWidth="375.0" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>

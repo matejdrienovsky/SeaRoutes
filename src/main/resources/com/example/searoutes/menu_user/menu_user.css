@@ -1,0 +1,112 @@
+#bgMenuUser {
+    -fx-background-image: url("menu_bg.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#confirm_button{
+    -fx-background-color: #26A69A;
+    -fx-background-radius: 999px;
+    -fx-effect: dropshadow(three-pass-box, #26A69A, 20, 0, 10, 0);
+    -fx-text-fill: #FFFFFF;
+    -fx-cursor: hand;
+    -fx-font-family: "Inter", "Helvetica", "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols", "-apple-system", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 18px;
+    -fx-opacity: 1;
+    -fx-border-width: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+}
+
+#sign_up_button:hover {
+    -fx-background-color: #00897b;
+}
+
+#menu_box{
+    -fx-background-color: #00897b;
+    -fx-background-radius: 999px;
+    -fx-cursor: hand;
+    -fx-font-family: "Inter", "Helvetica", "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols", "-apple-system", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", sans-serif;
+    -fx-font-weight: bold;
+    -fx-padding: 2px 5px;
+    -fx-opacity: 1;
+    -fx-border-width: 0;
+    -fx-background-insets: 0;
+    -fx-alignment: center;
+}
+#items{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 999px;
+    -fx-cursor: hand;
+    -fx-font-family: "Inter", "Helvetica", "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols", "-apple-system", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", sans-serif;
+    -fx-font-weight: bold;
+    -fx-padding: 2px 5px;
+    -fx-opacity: 1;
+    -fx-border-width: 0;
+    -fx-background-insets: 0;
+    -fx-alignment: center;
+}
+#menu-item {
+    -fx-background-color: #00897b;
+    -fx-text-fill: #ffffff;
+}
+#menu-item:hover {
+    -fx-text-fill: #00897b;
+}
+#menuButton{
+    -fx-background-color: #b7b7c6;
+}
+* {
+    -fx-primary-color: #adadad;
+    -fx-secondary-color: #00897b;
+    -fx-light-grey-color: #356870;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #adadad;
+    -fx-text-fill: -fx-secondary-color;
+    -fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+    -fx-background-color: -fx-secondary-color;
+}
+.date-picker .arrow-button .arrow {
+    -fx-background-color: white;
+}
+.date-picker .cell {
+    -fx-background-color: white;
+}
+.date-picker .cell:hover {
+    -fx-background-color: -fx-light-grey-color;
+}
+.date-picker .cell:focused {
+    -fx-background-color: -fx-light-grey-color;
+}
+.date-picker .selected {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+}
+.date-picker .selected:focused {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+}
+.date-picker-popup  {
+    -fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+    -fx-background-color: #5cadba;
+}
+.date-picker-popup .month-year-pane .label {
+    -fx-text-fill: white;
+}
+.date-picker-popup .week-number-cell {
+    -fx-text-fill: -fx-secondary-color;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+    -fx-background-color: white;
+}

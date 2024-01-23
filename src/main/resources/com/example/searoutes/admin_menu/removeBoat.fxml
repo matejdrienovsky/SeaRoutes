@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="bg" prefHeight="306.0" prefWidth="246.0" stylesheets="@removeBoat.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.searoutes.AdminRemoveBoats">
+   <children>
+      <ChoiceBox id="choice_box" fx:id="boats" layoutX="47.0" layoutY="108.0" prefHeight="9.0" prefWidth="151.0" stylesheets="@removeBoat.css" />
+      <Button id="button" fx:id="removeBoatButton" layoutX="76.0" layoutY="256.0" mnemonicParsing="false" onAction="#removeBoat" prefHeight="36.0" prefWidth="94.0" stylesheets="@removeBoat.css" text="Remove" />
+      <Button id="buttonSort" fx:id="capacityButton" layoutX="65.0" layoutY="153.0" mnemonicParsing="false" onAction="#sortByCapacity" prefHeight="19.0" prefWidth="116.0" stylesheets="@removeBoat.css" text="Sort by capacity" />
+      <Button id="buttonSort" fx:id="nameSortButton" layoutX="65.0" layoutY="179.0" mnemonicParsing="false" onAction="#sortByName" prefHeight="26.0" prefWidth="116.0" stylesheets="@removeBoat.css" text="Sort by name" />
+      <Label fx:id="labelRemove" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="217.0" prefHeight="18.0" prefWidth="228.0" textAlignment="CENTER" textFill="RED" />
+   </children>
+</AnchorPane>

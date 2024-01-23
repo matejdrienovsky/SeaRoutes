@@ -1,0 +1,53 @@
+#bg {
+    -fx-background-image: url("background.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#admin_button{
+    -fx-background-image: url("admincolored.png");
+    -fx-background-color: transparent;
+    -fx-background-image-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#sign_in_button {
+    -fx-background-color: #26A69A;
+    -fx-background-radius: 999px;
+    -fx-effect: dropshadow(three-pass-box, #26A69A, 20, 0, 10, 0);
+    -fx-text-fill: #FFFFFF;
+    -fx-cursor: hand;
+    -fx-font-family: "Inter", "Helvetica", "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols", "-apple-system", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 18px;
+    -fx-opacity: 1;
+    -fx-border-width: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+}
+#sign_in_button:hover {
+    -fx-background-color: #00897B;
+}
+#sign_up_button{
+    -fx-background-color: #26A69A;
+    -fx-background-radius: 999px;
+    -fx-effect: dropshadow(three-pass-box, #26A69A, 20, 0, 10, 0);
+    -fx-text-fill: #FFFFFF;
+    -fx-cursor: hand;
+    -fx-font-family: "Inter", "Helvetica", "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols", "-apple-system", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 18px;
+    -fx-opacity: 1;
+    -fx-border-width: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+}
+
+#sign_up_button:hover {
+    -fx-background-color: #00897B;
+}
